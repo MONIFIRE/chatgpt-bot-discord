@@ -27,4 +27,4 @@ async def ChatGPT(ctx, messages):
 
 if __name__ == '__main__':
 
-    TOKEN = bot.run('MTAzNjAwNjAwMDY2ODQ2MzExNA.Gwr525.Ehr9czPT7wS7o9CFROmWJm2hwdA76wDiRiqqXQ')
+    TOKEN = bot.run('TOKEN')
