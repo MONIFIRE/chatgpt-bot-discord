@@ -1,7 +1,7 @@
 import openai
 import time
 
-openai.api_key = "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"
+openai.api_key = "key"
 
 def chatgpt_response(prompt):
     try:
