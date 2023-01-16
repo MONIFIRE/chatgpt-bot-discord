@@ -16,8 +16,8 @@ print('We have logged in as {0.user}'.format(bot))
 @slash.slash(name="OTAKO", description="ข้อความ")
 async def ChatGPT(ctx, messages):
     language = detect(messages)
-    if language != 'ja':
-         await ctx.send("**โปรดใช้ภาษาญี่ปุ่นในการสนทนา :D**")
+    if language != 'en':
+         await ctx.send("**โปรดใช้ภาษาอังกฤษในการสนทนา :D**")
     else:
          response = f"{chatgpt_response(messages)}"
          await ctx.send(f"**{response}**")
